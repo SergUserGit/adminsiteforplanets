@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+<body>
+
+  <header class="add-header">
+    <a class="add-Ref" href="../index.html">Back to home</a>
+  </header>
+
+  <main>
+    <ul class="add-list">
+      <li>
+        <div class="add-list-id-groud">
+          <label class="label-id-add" for="id-add">ID</label>
+          <input class="input-id-add" autocomplete="off" type="text" name="id-add" id="id-add">
+        </div>
+      </li>
+
+      <li class="planet-item">
+        <div class="group-planet">
+          <label class="planet-label" for="aspect-sun">Сонце</label>
+          <select class="select-zn-zodiak" id="aspect-sun" name="aspect-sun">
+            <option value="1">Овен</option>
+            <option value="2">Тілець</option>
+            <option value="3">Близнюки</option>
+            <option value="4">Рак</option>
+            <option value="5">Лев</option>
+            <option value="6">Діва</option>
+            <option value="7">Терези</option>
+            <option value="8">Скорпіон</option>
+            <option value="9">Стрілець</option>
+            <option value="10">Козеріг</option>
+            <option value="11">Водолій</option>
+            <option value="12">Риби</option>
+          </select>
+        </div>
+        <div class="group-degr">
+          <label class="degr-label" for="aspect-degr-sun">Градуси</label>
+          <input class="degr-input" type="number" name="aspect-degr-sun" id="aspect-degr-sun">
+        </div>
+        <div class="group-hours">
+          <label class="label-hours" for="aspect-hours-sun">Години</label>
+          <input class="input-hours" type="number" name="aspect-hours-sun" id="aspect-hours-sun">
+        </div>
+      </li>
+    </ul>
+
+
+    <button class="add-Button">Add date</button>
+  </main>
+</body>
+
+</html>
