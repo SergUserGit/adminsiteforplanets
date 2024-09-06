@@ -21,7 +21,7 @@
 
 .add-Ref {
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 15px;
   margin-left: 50px;
   text-decoration: none;
   border: 5px solid #367C2F;
@@ -35,11 +35,10 @@
 }
 
 .add-header {
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 .add-Button {
-  margin-left: 50px;
   border: 5px solid #86731B;
   padding: 20px;
   border-radius: 10px;
@@ -52,11 +51,19 @@
 }
 
 .add-list {
-  list-style: none;
+  margin-left: 50px;
   margin-bottom: 50px;
+  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  background: linear-gradient(#E7FEF3, #A2B3AB);
+  padding: 20px;
+  border-radius: 10px;
+  width: 620px;
+  border: 5px solid #656F6A;
+  box-shadow: 10px 5px 5px #83918A;
+  cursor: pointer;
 }
 
 .add-list-id-groud {
@@ -98,6 +105,82 @@
 
 .select-zn-zodiak {
   padding: 5px;
+  border: 5px solid #511E17;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(#D9513F, #B74435);
+  color: #59211A;
+  font-weight: 700;
+  box-shadow: 10px 5px 5px #95372B;
+  font-size: 20px;
+  width: 120px;
+}
+
+.planet-label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #FB5D49;
+}
+
+.group-degr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.degr-input {
+  padding: 5px;
+  border: 5px solid #865E3F;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(#DBC2AF, #FFE7D4);
+  color: #5B371B;
+  font-weight: 700;
+  box-shadow: 10px 5px 5px #B18C70;
+  font-size: 20px;
+  width: 70px;
+}
+
+.degr-label {
+  font-size: 20px;
+  font-weight: 700;
+  color: #865E3F;
+}
+
+.group-hours {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-hours {
+  padding: 5px;
+  border: 5px solid #351953;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(#914CDB, #7638B9);
+  color: #3B1C5C;
+  font-weight: 700;
+  box-shadow: 10px 5px 5px #A24CFD;
+  font-size: 20px;
+  width: 70px;
+}
+
+.label-hours {
+  font-size: 20px;
+  font-weight: 700;
+  color: #612D97;
+}
+
+.group-add-button {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-list-group {
+  display: flex;
+  justify-content: center;
 }
 
 body {

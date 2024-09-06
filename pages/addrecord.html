@@ -16,45 +16,673 @@
   </header>
 
   <main>
-    <ul class="add-list">
-      <li>
-        <div class="add-list-id-groud">
-          <label class="label-id-add" for="id-add">ID</label>
-          <input class="input-id-add" autocomplete="off" type="text" name="id-add" id="id-add">
-        </div>
-      </li>
+    <div class="add-list-group">
+      <ul class="add-list">
+        <li>
+          <div class="add-list-id-groud">
+            <label class="label-id-add" for="id-add">ID</label>
+            <input class="input-id-add" autocomplete="off" type="text" name="id-add" id="id-add">
+          </div>
+        </li>
 
-      <li class="planet-item">
-        <div class="group-planet">
-          <label class="planet-label" for="aspect-sun">Сонце</label>
-          <select class="select-zn-zodiak" id="aspect-sun" name="aspect-sun">
-            <option value="1">Овен</option>
-            <option value="2">Тілець</option>
-            <option value="3">Близнюки</option>
-            <option value="4">Рак</option>
-            <option value="5">Лев</option>
-            <option value="6">Діва</option>
-            <option value="7">Терези</option>
-            <option value="8">Скорпіон</option>
-            <option value="9">Стрілець</option>
-            <option value="10">Козеріг</option>
-            <option value="11">Водолій</option>
-            <option value="12">Риби</option>
-          </select>
-        </div>
-        <div class="group-degr">
-          <label class="degr-label" for="aspect-degr-sun">Градуси</label>
-          <input class="degr-input" type="number" name="aspect-degr-sun" id="aspect-degr-sun">
-        </div>
-        <div class="group-hours">
-          <label class="label-hours" for="aspect-hours-sun">Години</label>
-          <input class="input-hours" type="number" name="aspect-hours-sun" id="aspect-hours-sun">
-        </div>
-      </li>
-    </ul>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-sun">Сонце</label>
+            <select class="select-zn-zodiak" id="aspect-sun" name="aspect-sun">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-sun">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-sun" id="aspect-degr-sun">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-sun">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-sun" id="aspect-hours-sun">
+          </div>
+        </li>
 
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-moon">Місяць</label>
+            <select class="select-zn-zodiak" id="aspect-moon" name="aspect-moon">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-moon">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-moon" id="aspect-degr-moon">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-moon">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-moon" id="aspect-hours-moon">
+          </div>
+        </li>
 
-    <button class="add-Button">Add date</button>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-merk">Меркурій</label>
+            <select class="select-zn-zodiak" id="aspect-merk" name="aspect-merk">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-merk">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-merk" id="aspect-degr-merk">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-merk">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-merk" id="aspect-hours-merk">
+          </div>
+        </li>
+
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-vener">Венера</label>
+            <select class="select-zn-zodiak" id="aspect-vener" name="aspect-vener">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-vener">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-vener" id="aspect-degr-vener">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-vener">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-vener" id="aspect-hours-vener">
+          </div>
+        </li>
+
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-mars">Марс</label>
+            <select class="select-zn-zodiak" id="aspect-mars" name="aspect-mars">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-mars">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-mars" id="aspect-degr-mars">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-mars">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-mars" id="aspect-hours-mars">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-saturn">Сатурн</label>
+            <select class="select-zn-zodiak" id="aspect-saturn" name="aspect-saturn">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-saturn">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-saturn" id="aspect-degr-saturn">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-saturn">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-saturn" id="aspect-hours-saturn">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-yupiter">Юпітер</label>
+            <select class="select-zn-zodiak" id="aspect-yupiter" name="aspect-yupiter">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-yupiter">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-yupiter" id="aspect-degr-yupiter">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-yupiter">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-yupiter" id="aspect-hours-yupiter">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-neptun">Нептун</label>
+            <select class="select-zn-zodiak" id="aspect-neptun" name="aspect-neptun">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-neptun">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-neptun" id="aspect-degr-neptun">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-neptun">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-neptun" id="aspect-hours-neptun">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-uran">Уран</label>
+            <select class="select-zn-zodiak" id="aspect-uran" name="aspect-uran">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-uran">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-uran" id="aspect-degr-uran">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-uran">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-uran" id="aspect-hours-uran">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-pluton">Плутон</label>
+            <select class="select-zn-zodiak" id="aspect-pluton" name="aspect-pluton">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-pluton">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-pluton" id="aspect-degr-pluton">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-pluton">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-pluton" id="aspect-hours-pluton">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-houseone">Буд1</label>
+            <select class="select-zn-zodiak" id="aspect-houseone" name="aspect-houseone">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-houseone">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-houseone" id="aspect-degr-houseone">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-houseone">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-houseone" id="aspect-hours-houseone">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-housetwo">Буд2</label>
+            <select class="select-zn-zodiak" id="aspect-housetwo" name="aspect-housetwo">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-housetwo">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-housetwo" id="aspect-degr-housetwo">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-housetwo">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-housetwo" id="aspect-hours-housetwo">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-housethree">Буд3</label>
+            <select class="select-zn-zodiak" id="aspect-housethree" name="aspect-housethree">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-housethree">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-housethree" id="aspect-degr-housethree">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-housethree">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-housethree" id="aspect-hours-housethree">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-housefour">Буд4</label>
+            <select class="select-zn-zodiak" id="aspect-housefour" name="aspect-housefour">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-housefour">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-housefour" id="aspect-degr-housefour">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-housefour">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-housefour" id="aspect-hours-housefour">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-housefive">Буд5</label>
+            <select class="select-zn-zodiak" id="aspect-housefive" name="aspect-housefive">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-housefive">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-housefive" id="aspect-degr-housefive">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-housefive">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-housefive" id="aspect-hours-housefive">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-housesix">Буд6</label>
+            <select class="select-zn-zodiak" id="aspect-housesix" name="aspect-housesix">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-housesix">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-housesix" id="aspect-degr-housesix">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-housesix">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-housesix" id="aspect-hours-housesix">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-houseseven">Буд7</label>
+            <select class="select-zn-zodiak" id="aspect-houseseven" name="aspect-houseseven">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-houseseven">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-houseseven" id="aspect-degr-houseseven">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-houseseven">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-houseseven" id="aspect-hours-houseseven">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-houseeight">Буд8</label>
+            <select class="select-zn-zodiak" id="aspect-houseeight" name="aspect-houseeight">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-houseeight">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-houseeight" id="aspect-degr-houseeight">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-houseeight">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-houseeight" id="aspect-hours-houseeight">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-housenine">Буд9</label>
+            <select class="select-zn-zodiak" id="aspect-housenine" name="aspect-housenine">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-housenine">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-housenine" id="aspect-degr-housenine">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-housenine">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-housenine" id="aspect-hours-housenine">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-houseten">Буд10</label>
+            <select class="select-zn-zodiak" id="aspect-houseten" name="aspect-houseten">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-houseten">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-houseten" id="aspect-degr-houseten">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-houseten">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-houseten" id="aspect-hours-houseten">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-houseelewen">Буд11</label>
+            <select class="select-zn-zodiak" id="aspect-houseelewen" name="aspect-houseelewen">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-houseelewen">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-houseelewen" id="aspect-degr-houseelewen">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-houseelewen">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-houseelewen" id="aspect-hours-houseelewen">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-housetwelve">Буд12</label>
+            <select class="select-zn-zodiak" id="aspect-housetwelve" name="aspect-housetwelve">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-housetwelve">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-housetwelve" id="aspect-degr-housetwelve">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-housetwelve">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-housetwelve" id="aspect-hours-housetwelve">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-lilit">Ліліт</label>
+            <select class="select-zn-zodiak" id="aspect-lilit" name="aspect-lilit">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-lilit">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-lilit" id="aspect-degr-lilit">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-lilit">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-lilit" id="aspect-hours-lilit">
+          </div>
+        </li>
+        <li class="planet-item">
+          <div class="group-planet">
+            <label class="planet-label" for="aspect-node">Вузол</label>
+            <select class="select-zn-zodiak" id="aspect-node" name="aspect-node">
+              <option value="1">Овен</option>
+              <option value="2">Тілець</option>
+              <option value="3">Близнюки</option>
+              <option value="4">Рак</option>
+              <option value="5">Лев</option>
+              <option value="6">Діва</option>
+              <option value="7">Терези</option>
+              <option value="8">Скорпіон</option>
+              <option value="9">Стрілець</option>
+              <option value="10">Козеріг</option>
+              <option value="11">Водолій</option>
+              <option value="12">Риби</option>
+            </select>
+          </div>
+          <div class="group-degr">
+            <label class="degr-label" for="aspect-degr-node">Градуси</label>
+            <input class="degr-input" type="number" name="aspect-degr-node" id="aspect-degr-node">
+          </div>
+          <div class="group-hours">
+            <label class="label-hours" for="aspect-hours-node">Години</label>
+            <input class="input-hours" type="number" name="aspect-hours-node" id="aspect-hours-node">
+          </div>
+        </li>
+      </ul>
+      </ul>
+    </div>
+    <div class="group-add-button">
+      <button class="add-Button">Add date</button>
+    </div>
   </main>
 </body>
 
