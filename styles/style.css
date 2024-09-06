@@ -90,6 +90,11 @@
   font-weight: 700;
 }
 
+.item-id-add {
+  display: flex;
+  justify-content: center;
+}
+
 .planet-item {
   display: flex;
   gap: 30px;
