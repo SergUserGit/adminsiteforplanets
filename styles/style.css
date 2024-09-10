@@ -17,6 +17,7 @@
   padding: 20px;
   border-radius: 10px;
   background-color: #778C80;
+  font-family: "Montserrat", sans-serif;
 }
 
 .add-Ref {
@@ -32,6 +33,7 @@
   font-size: 24px;
   box-shadow: 10px 5px 5px #449E3C;
   color: #275A22;
+  font-family: "Montserrat", sans-serif;
 }
 
 .add-header {
@@ -48,6 +50,7 @@
   box-shadow: 10px 5px 5px #A89022;
   color: #645614;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 
 .add-list {
@@ -60,10 +63,16 @@
   background: linear-gradient(#E7FEF3, #A2B3AB);
   padding: 20px;
   border-radius: 10px;
-  width: 620px;
+  width: 660px;
   border: 5px solid #656F6A;
   box-shadow: 10px 5px 5px #83918A;
   cursor: pointer;
+}
+
+.update-list {
+  box-shadow: 10px 5px 5px #5E5E5E;
+  border: 5px solid #000000;
+  background: linear-gradient(#C3C3C3, #A2A2A2);
 }
 
 .add-list-id-groud {
@@ -80,10 +89,27 @@
   margin-top: 50px;
 }
 
+.update-list-id-groud {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+
 .label-id-delete {
   color: #808080;
   font-size: 20px;
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.label-id-update {
+  color: #D7F1DD;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 .input-id-add {
@@ -96,6 +122,7 @@
   font-weight: 700;
   box-shadow: 10px 5px 5px #A42E87;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 
 .input-id-delete {
@@ -108,12 +135,27 @@
   font-weight: 700;
   box-shadow: 10px 5px 5px #5E5E5E;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input-id-update {
+  padding: 5px;
+  border-radius: 10px;
+  border: 5px solid #7C8B7F;
+  background: linear-gradient(#B9CFBE, #DEFAE4);
+  font-size: 20px;
+  color: #5E6960;
+  font-weight: 700;
+  box-shadow: 10px 5px 5px #9AAD9E;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 
 .label-id-add {
   color: #601B4F;
   font-size: 20px;
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 .item-id-add {
@@ -128,6 +170,13 @@
 }
 
 .group-delete-button {
+  margin-bottom: 35px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.group-update-button {
   margin-bottom: 35px;
   margin-top: 50px;
   display: flex;
@@ -152,12 +201,14 @@
   box-shadow: 10px 5px 5px #95372B;
   font-size: 20px;
   width: 120px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .planet-label {
   font-size: 20px;
   font-weight: 700;
   color: #FB5D49;
+  font-family: "Montserrat", sans-serif;
 }
 
 .group-degr {
@@ -177,12 +228,14 @@
   box-shadow: 10px 5px 5px #B18C70;
   font-size: 20px;
   width: 70px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .degr-label {
   font-size: 20px;
   font-weight: 700;
   color: #865E3F;
+  font-family: "Montserrat", sans-serif;
 }
 
 .group-hours {
@@ -202,12 +255,14 @@
   box-shadow: 10px 5px 5px #A24CFD;
   font-size: 20px;
   width: 70px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .label-hours {
   font-size: 20px;
   font-weight: 700;
   color: #612D97;
+  font-family: "Montserrat", sans-serif;
 }
 
 .group-add-button {
@@ -234,6 +289,7 @@
   font-size: 24px;
   box-shadow: 10px 5px 5px #3B676E;
   color: #15383D;
+  font-family: "Montserrat", sans-serif;
 }
 
 .delete-Button {
@@ -246,6 +302,20 @@
   box-shadow: 10px 5px 5px #E6C063;
   color: #E66C17;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.update-Button {
+  border: 5px solid #8B214A;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(#CF326E, #FA3B84);
+  font-weight: 700;
+  font-size: 24px;
+  box-shadow: 10px 5px 5px #731C3D;
+  color: #691938;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 
 .update-Ref {
@@ -261,6 +331,7 @@
   font-size: 24px;
   box-shadow: 10px 5px 5px #6B624F;
   color: #332E25;
+  font-family: "Montserrat", sans-serif;
 }
 
 .getall-Ref {
@@ -276,6 +347,7 @@
   font-size: 24px;
   box-shadow: 10px 5px 5px #8F4386;
   color: #4B2346;
+  font-family: "Montserrat", sans-serif;
 }
 
 .table-getall {
@@ -295,6 +367,7 @@
   box-shadow: 10px 5px 5px #6B2686;
   font-weight: 700;
   font-size: 24px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .td-get-all {
@@ -307,6 +380,7 @@
   font-weight: 700;
   box-shadow: 10px 5px 5px #A39A67;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
 }
 
 .table-getall-head {
@@ -318,6 +392,7 @@
   cursor: pointer;
   font-weight: 700;
   font-size: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
