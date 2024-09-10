@@ -114,7 +114,50 @@ function getTotalObject(idInput, document) {
   return totalObject;
 }
 
-export default function getObjectBodyOfQuery(idInput, document) {
+function getParametrsOfQuery(methodName, idInput, document) {
+  if (methodName === "GET") {
+    return {
+      method: "GET",
+    };
+  } else if (methodName === "DELETE") {
+    return {
+      method: "DELETE",
+    };
+  } else {
+    return {
+      method: methodName,
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(getObjectBodyOfQuery(idInput, document)),
+    };
+  }
+}
+
+function getObjectBodyOfQuery(idInput, document) {
   const totalObj = getTotalObject(idInput, document);
   return totalObj;
 }
+
+function getPromiseFetch(
+  methodName,
+  idInput = null,
+  document = null,
+  idValue = ""
+) {
+  const URL_PLANET =
+    "https://planets-project-base.onrender.com/api/planets/" + idValue;
+
+  return fetch(
+    URL_PLANET,
+    getParametrsOfQuery(methodName, idInput, document)
+  ).then((response) => {
+    return response.json();
+  });
+}
+
+const objHelpers = {
+  getPromiseFetch,
+};
+
+export default objHelpers;

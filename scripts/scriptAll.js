@@ -1,18 +1,13 @@
+import objHelpers from "../scripts/helpers.js";
+
 const getAllButton = document.querySelector(".button-show-all");
 
 getAllButton.addEventListener("click", onClickgetAllButton);
 
 function onClickgetAllButton() {
-  const objPlanetResponse = getPromiseFetchGetAll();
+  const objPlanetResponse = objHelpers.getPromiseFetch("GET");
   objPlanetResponse.then(displayData).catch((error) => {
     alert("Виникла помилка - " + error.message);
-  });
-}
-
-function getPromiseFetchGetAll() {
-  const URL_PLANET = "https://planets-project-base.onrender.com/api/planets/";
-  return fetch(URL_PLANET).then((response) => {
-    return response.json();
   });
 }
 

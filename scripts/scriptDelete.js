@@ -1,3 +1,5 @@
+import objHelpers from "../scripts/helpers.js";
+
 const deleteButton = document.querySelector(".delete-Button");
 const idDelete = document.querySelector("#id-delete");
 
@@ -8,7 +10,13 @@ function onClickDeleteButton() {
     alert("Заповніть ID");
     return;
   }
-  const objPlanetResponse = getPromiseFetchDelete(idValue);
+
+  const objPlanetResponse = objHelpers.getPromiseFetch(
+    "DELETE",
+    null,
+    null,
+    idValue
+  );
   objPlanetResponse.then(displayData).catch((error) => {
     alert("Виникла помилка - " + error.message);
   });
@@ -20,18 +28,4 @@ function displayData(data) {
   } else {
     alert("Object has been delete by ID - ");
   }
-}
-
-function getPromiseFetchDelete(idValue) {
-  const URL_PLANET =
-    "https://planets-project-base.onrender.com/api/planets/" + idValue;
-  return fetch(URL_PLANET, getParametrsOfQuery()).then((response) => {
-    return response.json();
-  });
-}
-
-function getParametrsOfQuery() {
-  return {
-    method: "DELETE",
-  };
 }
