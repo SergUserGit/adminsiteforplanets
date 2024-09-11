@@ -1,9 +1,6 @@
 import objHelpers from "../scripts/helpers.js";
-
 const addDateButton = document.querySelector(".add-Button");
-
 const idInput = document.querySelector("#id-add");
-
 addDateButton.addEventListener("click", onClickAddDateButton);
 
 function onClickAddDateButton() {
@@ -18,9 +15,5 @@ function onClickAddDateButton() {
 }
 
 function displayData(data) {
-  if (data.message !== undefined) {
-    alert("Помилка: " + data.message);
-  } else {
-    alert("Object has been created with ID - " + data.innerId);
-  }
+  objHelpers.displayDataForMethod(data, "POST");
 }

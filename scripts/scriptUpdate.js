@@ -2,7 +2,6 @@ import objHelpers from "../scripts/helpers.js";
 
 const updateButton = document.querySelector(".update-Button");
 updateButton.addEventListener("click", onClickUpdateButton);
-
 const idUpdate = document.querySelector("#id-update");
 const idInput = document.querySelector("#id-add");
 
@@ -24,9 +23,5 @@ function onClickUpdateButton() {
 }
 
 function displayData(data) {
-  if (data.message !== undefined) {
-    alert("Помилка: " + data.message);
-  } else {
-    alert("Object has been update with ID - " + data.innerId);
-  }
+  objHelpers.displayDataForMethod(data, "PUT");
 }
