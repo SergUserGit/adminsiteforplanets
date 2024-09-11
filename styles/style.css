@@ -174,6 +174,27 @@
   margin-top: 50px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .delete-list-id-groud {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .delete-list-id-groud {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .delete-list-id-groud {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
+
 .update-list-id-groud {
   display: flex;
   align-items: center;
@@ -210,17 +231,64 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.input-id-delete {
-  padding: 5px;
-  border-radius: 10px;
-  border: 5px solid #3C3C3C;
-  background: linear-gradient(#8A8A8A, #A2A2A2);
-  font-size: 20px;
-  color: #000000;
-  font-weight: 700;
-  box-shadow: 10px 5px 5px #5E5E5E;
-  cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+@media screen and (min-width: 1200px) {
+  .input-id-delete {
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #3C3C3C;
+    background: linear-gradient(#8A8A8A, #A2A2A2);
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    box-shadow: 10px 5px 5px #5E5E5E;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .input-id-delete {
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #3C3C3C;
+    background: linear-gradient(#8A8A8A, #A2A2A2);
+    font-size: 12px;
+    color: #000000;
+    font-weight: 700;
+    box-shadow: 10px 5px 5px #5E5E5E;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .input-id-delete {
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #3C3C3C;
+    background: linear-gradient(#8A8A8A, #A2A2A2);
+    font-size: 14px;
+    color: #000000;
+    font-weight: 700;
+    box-shadow: 10px 5px 5px #5E5E5E;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .input-id-delete {
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #3C3C3C;
+    background: linear-gradient(#8A8A8A, #A2A2A2);
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+    box-shadow: 10px 5px 5px #5E5E5E;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
 .input-id-update {
@@ -361,33 +429,157 @@
   justify-content: center;
 }
 
-.delete-Ref {
-  display: inline-block;
-  margin-top: 15px;
-  margin-left: 50px;
-  text-decoration: none;
-  border: 5px solid #193E43;
-  padding: 20px;
-  border-radius: 10px;
-  background: linear-gradient(#6C9298, #B4E6ED);
-  font-weight: 700;
-  font-size: 24px;
-  box-shadow: 10px 5px 5px #3B676E;
-  color: #15383D;
-  font-family: "Montserrat", sans-serif;
+@media screen and (min-width: 1200px) {
+  .delete-Ref {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    border: 5px solid #193E43;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(#6C9298, #B4E6ED);
+    font-weight: 700;
+    font-size: 24px;
+    box-shadow: 10px 5px 5px #3B676E;
+    color: #15383D;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
-.delete-Button {
-  border: 5px solid #E69017;
-  padding: 20px;
-  border-radius: 10px;
-  background: linear-gradient(#E6C217, #E6A917);
-  font-weight: 700;
-  font-size: 24px;
-  box-shadow: 10px 5px 5px #E6C063;
-  color: #E66C17;
-  cursor: pointer;
-  font-family: "Montserrat", sans-serif;
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .delete-Ref {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 0px;
+    text-decoration: none;
+    border: 5px solid #193E43;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#6C9298, #B4E6ED);
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px #3B676E;
+    color: #15383D;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .delete-Ref {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 0px;
+    text-decoration: none;
+    border: 5px solid #193E43;
+    padding: 12px;
+    border-radius: 10px;
+    background: linear-gradient(#6C9298, #B4E6ED);
+    font-weight: 700;
+    font-size: 22px;
+    box-shadow: 10px 5px 5px #3B676E;
+    color: #15383D;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .delete-Ref {
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 0px;
+    text-decoration: none;
+    border: 5px solid #193E43;
+    padding: 14px;
+    border-radius: 10px;
+    background: linear-gradient(#6C9298, #B4E6ED);
+    font-weight: 700;
+    font-size: 23px;
+    box-shadow: 10px 5px 5px #3B676E;
+    color: #15383D;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .delete-Button {
+    border: 5px solid #E69017;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(#E6C217, #E6A917);
+    font-weight: 700;
+    font-size: 24px;
+    box-shadow: 10px 5px 5px #E6C063;
+    color: #E66C17;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .delete-Button {
+    border: 5px solid #E69017;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#E6C217, #E6A917);
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 10px 5px 5px #E6C063;
+    color: #E66C17;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .delete-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .delete-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .delete-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .delete-Button {
+    border: 5px solid #E69017;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#E6C217, #E6A917);
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 10px 5px 5px #E6C063;
+    color: #E66C17;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .delete-Button {
+    border: 5px solid #E69017;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(#E6C217, #E6A917);
+    font-weight: 700;
+    font-size: 22px;
+    box-shadow: 10px 5px 5px #E6C063;
+    color: #E66C17;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+  }
 }
 
 .update-Button {
