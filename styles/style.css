@@ -121,8 +121,54 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .add-Ref {
+    font-size: 20px;
+    padding: 15px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .add-Ref {
+    font-size: 22px;
+    padding: 15px;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .add-Ref {
+    font-size: 23px;
+    padding: 14px;
+    margin-left: 0px;
+  }
+}
+
 .add-header {
   padding-bottom: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .add-header {
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .add-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .add-header {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .add-Button {
@@ -136,6 +182,27 @@
   color: #645614;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .add-Button {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .add-Button {
+    font-size: 22px;
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .add-Button {
+    font-size: 23px;
+    padding: 10px;
+  }
 }
 
 .add-list {
@@ -153,6 +220,28 @@
   box-shadow: 10px 5px 5px #83918A;
   cursor: pointer;
 }
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .add-list {
+    margin-left: 0px;
+    width: 234.703px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .add-list {
+    margin-left: 0px;
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .add-list {
+    margin-left: 0px;
+    width: 661.578px;
+  }
+}
+
 
 .update-list {
   box-shadow: 10px 5px 5px #5E5E5E;
@@ -229,6 +318,24 @@
   box-shadow: 10px 5px 5px #A42E87;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .input-id-add {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .input-id-add {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .input-id-add {
+    font-size: 18px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -322,6 +429,20 @@
   align-items: center;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .planet-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .planet-item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 .group-delete-button {
   margin-bottom: 35px;
   margin-top: 50px;
@@ -357,6 +478,18 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .select-zn-zodiak {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .select-zn-zodiak {
+    font-size: 17px;
+  }
+}
+
 .planet-label {
   font-size: 20px;
   font-weight: 700;
@@ -384,6 +517,18 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .degr-input {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .degr-input {
+    font-size: 17px;
+  }
+}
+
 .degr-label {
   font-size: 20px;
   font-weight: 700;
@@ -409,6 +554,18 @@
   font-size: 20px;
   width: 70px;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .input-hours {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .input-hours {
+    font-size: 17px;
+  }
 }
 
 .label-hours {
