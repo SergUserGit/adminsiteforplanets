@@ -292,6 +292,26 @@
   margin-top: 50px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .update-list-id-groud {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .update-list-id-groud {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .update-list-id-groud {
+    margin-left: 0;
+    justify-content: center;
+  }
+}
 
 .label-id-delete {
   color: #808080;
@@ -411,6 +431,24 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .input-id-update {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .input-id-update {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .input-id-update {
+    font-size: 19px;
+  }
+}
+
 .label-id-add {
   color: #601B4F;
   font-size: 20px;
@@ -455,6 +493,24 @@
   margin-top: 50px;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .group-update-button {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .group-update-button {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .group-update-button {
+    margin-top: 5px;
+  }
 }
 
 .group-planet {
@@ -752,6 +808,27 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .update-Button {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .update-Button {
+    font-size: 22px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .update-Button {
+    font-size: 23px;
+    padding: 10px;
+  }
+}
+
 .update-Ref {
   display: inline-block;
   margin-top: 15px;
@@ -766,6 +843,51 @@
   box-shadow: 10px 5px 5px #6B624F;
   color: #332E25;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .update-Ref {
+    margin-left: 0px;
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .update-Ref {
+    margin-left: 0px;
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .update-Ref {
+    margin-left: 0px;
+    font-size: 21px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .update-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .update-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .update-header {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .getall-Ref {
