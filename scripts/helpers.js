@@ -262,6 +262,7 @@ function getAllRecords(data, document) {
     for (let i = 0; i < data.length; i += 1) {
       const curObj = data[i];
       let elTr = document.createElement("tr");
+      elTr.classList.add("table-row-detail");
       tableDetail.append(elTr);
       for (let a = 0; a < arrayColumn.length; a += 1) {
         const curElem = arrayColumn[a];
