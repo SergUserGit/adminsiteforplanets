@@ -961,7 +961,7 @@
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .table-getall {
     margin-left: 0px;
-    display: flex;
+    display: grid;
     justify-content: center;
   }
 }
@@ -1070,6 +1070,7 @@
   .table-row-detail {
     display: grid;
     grid-template-columns: 150px 1fr;
+    justify-content: center;
   }
 }
 
