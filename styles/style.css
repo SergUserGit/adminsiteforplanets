@@ -906,6 +906,51 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .getall-Ref {
+    margin-left: 0px;
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .getall-Ref {
+    margin-left: 0px;
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .getall-Ref {
+    margin-left: 0px;
+    font-size: 22px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .getall-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .getall-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .getall-header {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 .table-getall {
   margin-left: 50px;
   margin-top: 50px;
@@ -926,6 +971,36 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .button-show-all {
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .button-show-all {
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .button-show-all {
+    font-size: 22px;
+    padding: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .td-get-all {
   background: linear-gradient(#C5BA7C, #F0E396);
   border: 5px solid #817A51;
@@ -939,6 +1014,26 @@
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .td-get-all {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .td-get-all {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .td-get-all {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
 .table-getall-head {
   background: linear-gradient(#CF9CA7, #FABBC9);
   padding: 20px 30px;
@@ -949,6 +1044,26 @@
   font-weight: 700;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .table-getall-head {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .table-getall-head {
+    font-size: 16px;
+    padding: 5px 5px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .table-getall-head {
+    font-size: 18px;
+    padding: 5px 5px;
+  }
 }
 
 body {
